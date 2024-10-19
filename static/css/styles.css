@@ -1,0 +1,37 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #343a40;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+/* styles.css */
+
+.table-responsive {
+    overflow-x: auto; /* Genişliği aşan içeriği kaydırılabilir hale getirir */
+}
+
+.table {
+    width: 100%; /* Tablonun genişliğini tam olarak ayarlamak için */
+    margin-bottom: 1rem; /* Alt boşluk ekler */
+}
+
+/* styles.css */
+
+.countries-column {
+    max-width: 150px; /* İstediğiniz maksimum genişliği ayarlayın */
+    overflow: hidden; /* Taşan içeriği gizler */
+    text-overflow: ellipsis; /* Taşan metin için üç nokta kullanır */
+    white-space: nowrap; /* Metni tek satırda tutar */
+}
+
